@@ -111,7 +111,8 @@
 		$mail->Port='465';
 		$mail->isHTML();
 		$mail->Username='noreply.stocktrainer@gmail.com';
-		$mail->Password='alpqpsj34hdf7343n';
+		#Enter the correct password
+		$mail->Password='';
 		$mail->SetFrom('no-reply@gmail.com');
 		$mail->Subject='OTP verification';
 		$mail->Body='OTP for your Password RESET Request is <h1>'.$otp.'</h1>';
